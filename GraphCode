@@ -19,6 +19,7 @@ public:
         }
     }
 
+TODO
     void add_edge(int u, int v) {
         if (u >= 0 && u < num_vertices && v >= 0 && v < num_vertices) {
             adj_matrix[u][v] = 1;
@@ -28,6 +29,7 @@ public:
         }
     }
 
+TODO 
     void remove_edge(int u, int v) {
         if (u >= 0 && u < num_vertices && v >= 0 && v < num_vertices) {
             adj_matrix[u][v] = 0;
@@ -58,6 +60,7 @@ public:
         cout << endl;
     }
 
+TODO
     void dfs_traversal(int start_vertex) {
         bool visited[MAX_VERTICES] = {false};
         dfs(start_vertex, visited);
@@ -75,6 +78,7 @@ public:
         }
     }
 
+TODO
     void display_matrix() {
         cout << "Adjacency Matrix:" << endl;
         for (int i = 0; i < num_vertices; i++) {
